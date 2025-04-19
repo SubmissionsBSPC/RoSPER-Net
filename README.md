@@ -19,11 +19,8 @@ Plus, our Cross-Scale Edge Enhancement Decoder (CSED) uses noise suppression and
 ## 🚀 The challenges
 
 <div align="center">
-    <img width="400" alt="image" src="asserts/cha1.png?raw=true">
-</div>
-
-<div align="center">
-    <img width="400" alt="image" src="asserts/cha2.png?raw=true">
+    <img width="400" alt="image1" src="asserts/cha1.png?raw=true" style="display: inline-block; margin-right: 10px;">
+    <img width="400" alt="image2" src="asserts/cha2.png?raw=true" style="display: inline-block;">
 </div>
 
 ## 📻 Overview
