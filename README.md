@@ -102,5 +102,5 @@ Visualization results of ten state-of-the-art methods and RoSPER-Net for differe
 
 ## 🎫 License
 
-The content of this project itself is licensed under [LICENSE](https://github.com/ILoveESWA/RoSPERNet/blob/main/LICENSE).
+The content of this project itself is licensed under [LICENSE](https://github.com/SubmissionsBSPC/RoSPER-Net/tree/main?tab=Apache-2.0-1-ov-file).
 
