@@ -4,12 +4,17 @@
 
 ## 🎈 News
 
-- [2024.1.18] Training and inference code released
+- [2025.4.19] Training and inference code released
 
 ## ⭐ Abstract
 
-Medical image segmentation faces significant challenges, particularly in extracting key features for generalization and minimizing interference from non-salient objects to ensure precise localization of salient objects. 
-Existing methods have not effectively addressed these issues, resulting in suboptimal segmentation performance. To tackle these challenges, we propose RoSPER-Net, consisting of two components: the Spatial Prompt Encoder (SPE) and the Cross-Scale Edge Enhancement Decoder (CSED). SPE utilizes convolutional blocks and parallel Mamba to capture local-global features and introduces a self-prompting mechanism to extract crucial prior knowledge from both channel and spatial dimensions, thereby enhancing the model's stability and generalization capability. CSED employs multi-scale convolutions to extract rich features while integrating a noise suppression mechanism sensitive to background information and offset-driven deformable convolutions, effectively mitigating noise interference and improving the localization of irregular object contours. Experimental results on five public datasets show that RoSPER-Net surpasses ten existing state-of-the-art methods in segmentation accuracy, validating its robustness in complex medical imaging.
+Medical image segmentation is crucial for clinical decision making and treatment planning.
+However, it faces two challenges:
+First, the structures of salient objects and background details vary significantly in medical images of different modalities.
+Second, the misleading co-occurrence of salient and non-salient objects and the noise interference at the edges affect the segmentation accuracy of the model.
+To overcome these challenges, we propose RoSPER-Net, a framework designed to enhance medical image segmentation.
+RoSPER-Net integrates a Spatial Prompt Encoder (SPE), which generates two complementary prompts using an advanced prompt mechanism to guide the model to focus on the local-global structure of salient objects and understand the overall background information in the image, thereby improving the model's adaptability and segmentation accuracy under different modalities and complex backgrounds.
+Plus, our Cross-Scale Edge Enhancement Decoder (CSED) uses noise suppression and edge enhancement mechanisms to suppress non-salient regions and highlight salient regions, thereby improving the model's ability to detect salient objects in complex backgrounds. Comprehensive evaluations of RoSPER-Net on 5 medical image datasets verify its superior performance and versatility, demonstrating its potential in the field of medical image segmentation.
 
 ## 🚀 Introduction
 
