@@ -16,13 +16,15 @@ To overcome these challenges, we propose RoSPER-Net, a framework designed to enh
 RoSPER-Net integrates a Spatial Prompt Encoder (SPE), which generates two complementary prompts using an advanced prompt mechanism to guide the model to focus on the local-global structure of salient objects and understand the overall background information in the image, thereby improving the model's adaptability and segmentation accuracy under different modalities and complex backgrounds.
 Plus, our Cross-Scale Edge Enhancement Decoder (CSED) uses noise suppression and edge enhancement mechanisms to suppress non-salient regions and highlight salient regions, thereby improving the model's ability to detect salient objects in complex backgrounds. Comprehensive evaluations of RoSPER-Net on 5 medical image datasets verify its superior performance and versatility, demonstrating its potential in the field of medical image segmentation.
 
-## 🚀 Introduction
+## 🚀 The challenges
 
 <div align="center">
-    <img width="400" alt="image" src="asserts/challenges.png?raw=true">
+    <img width="400" alt="image" src="asserts/cha1.png?raw=true">
 </div>
 
-The challenges: (a) Identifying complex salient targets in medical images of different pathologies requires capturing global salient regions and intricate local details. (b) Salient objects are often affected by non-salient targets, which challenges accurate boundary detection.
+<div align="center">
+    <img width="400" alt="image" src="asserts/cha2.png?raw=true">
+</div>
 
 ## 📻 Overview
 
@@ -83,7 +85,7 @@ concrete information see test.py, please
 ## 🖼️ Visualization
 
 <div align="center">
-<img width="800" alt="image" src="asserts/Visualization.png?raw=true">
+<img width="800" alt="image" src="asserts/compara.png?raw=true">
 </div>
 
 Visualization results of ten state-of-the-art methods and RoSPER-Net for different lesions. The red circles indicate areas of incorrect predictions.
@@ -91,7 +93,7 @@ Visualization results of ten state-of-the-art methods and RoSPER-Net for differe
 ## ✨ Quantitative comparison
 
 <div align="center">
-<img width="800" alt="image" src="asserts/compara.png?raw=true">
+<img width="800" alt="image" src="asserts/table.png?raw=true">
 </div>
 
 <div align="center">
